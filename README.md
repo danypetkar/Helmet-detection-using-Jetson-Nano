@@ -180,6 +180,10 @@ source '0' for webcam
     • It can work around the clock and therefore becomes more cost efficient.
 ## Application
 
+https://user-images.githubusercontent.com/65066836/151301951-e8594396-0b6f-481c-9a0b-491f22364f42.mp4
+
+
+
     • Detects a person’s head and then checks whether Helmet is worn or not in each image frame or viewfinder using a camera module.
     • Can be used anywhere where traffic lights are installed as their people usually stop on red lights and Helmet detection becomes even more accurate.
     • Can be used as a reference for other ai models based on Helmet Detection.
