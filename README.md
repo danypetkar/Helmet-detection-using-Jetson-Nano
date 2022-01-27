@@ -170,7 +170,7 @@ source '0' for webcam
 !python detect.py --weights best.pt --img 416 --conf 0.1 --source 0
 ```
 ## Demo
-[![Watch the video](https://github.com/danypetkar/Helmet-detection-using-Jetson-Nano/blob/main/helmet_output.mp4)]
+[![Watch the video]](https://github.com/danypetkar/Helmet-detection-using-Jetson-Nano/blob/main/helmet_output.mp4)
 ## Advantages
 
     • Helmet detection system will be of great help in minimizing the injuries that occur due to an accident.
