@@ -43,7 +43,7 @@ Objectives
     • In our model we have used JetPack version 4.6 which is the latest production release and supports all Jetson modules.
 ## Jetson Nano 2gb
 
-![Jetson Nano](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Jetson Nano](https://github.com/danypetkar/Helmet-detection-using-Jetson-Nano/blob/main/IMG_20220125_115121.jpg)
 
 
 ## Proposed System
