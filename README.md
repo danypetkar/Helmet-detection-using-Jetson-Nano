@@ -122,6 +122,16 @@ sudo apt install curl
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python3 get-pip.py
 sudo apt-get install libopenblas-base libopenmpi-dev
+sudo apt-get install python3-dev build-essential autoconf libtool pkg-config python-opengl python-pil python-pyrex python-pyside.qtopengl idle-python2.7 qt4-dev-tools qt4-designer libqtgui4 libqtcore4 libqt4-xml libqt4-test libqt4-script libqt4-network libqt4-dbus python-qt4 python-qt4-gl libgle3 python-dev libssl-dev libpq-dev python-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libffi-dev libfreetype6-dev python3-dev
+
+
+vim ~/.bashrc
+####################### add line ####################   
+export OPENBLAS_CORETYPE=ARMV8
+   
+source ~/.bashrc
+sudo pip3 install pillow
+
 ```
 Install Torch
 ```bash
@@ -160,7 +170,7 @@ sudo python3 detect.py --weights yolov5s.pt  --source 0
 train your model on colab and download the weights and past them into yolov5 folder
 link of project
 
-Insert gif or link to demo
+colab file given in repo
 
 
 ## Running Helmet Detection Model
